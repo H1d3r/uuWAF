@@ -46,3 +46,9 @@
 ### 🍆 如何补充丰富南墙滑动旋转验证码图片数量？ <!-- {docsify-ignore} -->
 
 ?> 选择合适大小的png图片，放入/uuwaf/captcha/images/目录，然后重启服务使配置生效。
+
+
+
+### 🌶️ 如何调用南墙控制台的REST API？ <!-- {docsify-ignore} -->
+
+?> 请求时在HTTP头中加入 "Api-Token: xxxxxx" , xxxxxx为你的实际token值，可在南墙系统设置中找到，然后请求南墙控制台的REST API就可以了。

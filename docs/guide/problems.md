@@ -46,3 +46,9 @@
 ### 🍆 How to supplement and expand the number of sliding/rotating CAPTCHA images ？ <!-- {docsify-ignore} -->
 
 ?> Select PNG images of appropriate size, place them in the `/uuwaf/captcha/images/` directory, then restart the service and apply the configuration.
+
+
+
+### 🌶️ How to call the UUSEC WAF console's REST API?  <!-- {docsify-ignore} -->
+
+?> When making the request, include Api-Token: xxxxxx in the HTTP headers - where "xxxxxx" represents your actual token value (which can be found in the UUSEC WAF system settings). Then you can successfully call the UUSEC WAF console's REST API.
