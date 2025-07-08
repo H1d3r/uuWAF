@@ -51,4 +51,4 @@
 
 ### 🌶️ 如何调用南墙控制台的REST API？ <!-- {docsify-ignore} -->
 
-?> 请求时在HTTP头中加入 "Api-Token: xxxxxx" , xxxxxx为你的实际token值，可在南墙系统设置中找到，然后请求南墙控制台的REST API就可以了。
+?> 请求时在HTTP头中加入 "Api-Token: xxxxxx"，xxxxxx为你的实际token值，可在南墙系统设置中找到，然后请求南墙控制台的REST API就可以了。
