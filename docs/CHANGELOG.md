@@ -1,3 +1,28 @@
+## [7.0.2](https://github.com/Safe3/uusec-waf/compare/v7.0.2...v7.0.1) (2025-07-11)
+
+
+### Bug Fixes
+
+- Fixed slow website access caused by IP threat intelligence updates under poor network conditions
+- Fixed error reporting issues with some frontend UI elements
+
+### Improvements
+
+- Update GEO IP database to the latest version
+
+
+
+## [7.0.1](https://github.com/Safe3/uusec-waf/compare/v7.0.1...v7.0.0) (2025-07-05)
+
+
+### Bug Fixes
+
+- Fixed inability to modify DSL rules after adding them
+- Fixed issue where HTTP/2 toggle didn't take effect
+- Fixed incorrect regex pattern matching warning for cache acceleration paths
+
+
+
 ## [7.0.0](https://github.com/Safe3/uuWAF/compare/v7.0.0...v6.8.0) (2025-07-01)
 
 
