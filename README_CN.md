@@ -88,6 +88,14 @@ sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer_cn.sh)"
 
 
 
+## :1st_place_medal: 产品
+
+来自我们的其它伟大产品：
+
+[OpenResty管家](https://github.com/Safe3/openresty-manager) - 最简单易用、功能强大、漂亮的主机管理面板，OpenResty Edge 的开源替代品。
+
+[萤火虫](https://github.com/Safe3/firefly) -  最简单易用的 WireGuard VPN 服务器。
+
 
 ## :gift_heart: 贡献名单
 
