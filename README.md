@@ -101,7 +101,7 @@ For reference only
 
 
 
-## :1st_place_medal: Products
+## :1st_place_medal: Product List
 
 Other great products from us:
 
