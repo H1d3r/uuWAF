@@ -1,3 +1,12 @@
+## [7.0.3](https://github.com/Safe3/uusec-waf/compare/v7.0.3...v7.0.2) (2025-07-18)
+
+
+### 问题修复
+
+- 修复当日志等级选择为提示的时候无法查看部分日志的问题
+
+
+
 ## [7.0.2](https://github.com/Safe3/uusec-waf/compare/v7.0.2...v7.0.1) (2025-07-11)
 
 

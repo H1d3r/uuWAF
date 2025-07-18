@@ -1,3 +1,12 @@
+## [7.0.3](https://github.com/Safe3/uusec-waf/compare/v7.0.3...v7.0.2) (2025-07-18)
+
+
+### Bug Fixes
+
+- Resolved the problem that prevented viewing certain logs when the log level filter was set to 'Info'
+
+
+
 ## [7.0.2](https://github.com/Safe3/uusec-waf/compare/v7.0.2...v7.0.1) (2025-07-11)
 
 
