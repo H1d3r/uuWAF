@@ -1,5 +1,5 @@
 <p align="center">
-  <a target="_blank" href="https://www.uusec.com/">🏠 Website</a> &nbsp; | &nbsp;
+  <a target="_blank" href="https://www.uusec.com/">🏠 Home</a> &nbsp; | &nbsp;
   <a target="_blank" href="/README_CN.md">中文版</a>
   <br/><br/>
     ⭐Please help us with a star to support our continuous improvement, thank you!
@@ -117,10 +117,6 @@ How to contribute? reference: https://uuwaf.uusec.com/#/guide/contribute
 Thanks to puhui222, MCQSJ, k4n5ha0 and more for the contribution made to the UUSEC WAF!
 
 [![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
-本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助
-
-[![Powered by EdgeOne](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)](https://edgeone.ai/zh?from=github "亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne")
 
 
 ## :kissing_heart: Join the discussion
