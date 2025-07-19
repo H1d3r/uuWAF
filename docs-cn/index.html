@@ -15,6 +15,9 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      requestHeaders: {
+            'cache-control': 'max-age=0',
+      },
       name: '南墙Web应用防火墙',
       repo: 'https://github.com/Safe3/uuWAF',
       loadSidebar: true,

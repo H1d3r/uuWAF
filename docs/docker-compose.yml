@@ -13,11 +13,11 @@
 services:
   uuwaf:
     image: uusec/waf:latest
-    ulimits:
-      nproc: 65535
-      nofile:
-        soft: 102400
-        hard: 102400
+    #ulimits:
+    #  nproc: 65535
+    #  nofile:
+    #    soft: 102400
+    #    hard: 102400
     container_name: uuwaf
     restart: always
     network_mode: host
@@ -33,7 +33,7 @@ services:
         condition: service_healthy
 
   wafdb:
-    image: mysql:5.7.44
+    image: mysql:5.7
     container_name: wafdb
     restart: always
     networks:
