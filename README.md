@@ -107,7 +107,6 @@ Other great products from us:
 
 [OpenResty Manager](https://github.com/Safe3/openresty-manager) - The most simple, powerful and beautiful host management panel, open source alternative to OpenResty Edge.
 
-[Firefly](https://github.com/Safe3/firefly) -  The easiest using and high performance WireGuard VPN server.
 
 
 ## :gift_heart: Contribution List
