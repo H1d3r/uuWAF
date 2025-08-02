@@ -122,5 +122,5 @@ Thanks to puhui222, MCQSJ, k4n5ha0 and more for the contribution made to the UUS
 
 Welcome to participate in discussions on various bugs, functional requirements, and usage issues related to the UUSEC WAF through the following channels:
 
-- Problem submission: https://github.com/Safe3/uuWAF/issues
-- Discussion Community: https://github.com/Safe3/uuWAF/discussions
+- Problem submission: https://github.com/Safe3/uusec-waf/issues
+- Discussion Community: https://github.com/Safe3/uusec-waf/discussions

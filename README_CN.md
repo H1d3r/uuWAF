@@ -112,9 +112,9 @@ sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer.sh)"
 
 欢迎各位就 南墙 的各种bug或功能需求及使用问题，在如下渠道参与讨论
 
-- 问题提交：https://github.com/Safe3/uuWAF/issues
+- 问题提交：https://github.com/Safe3/uusec-waf/issues
 
-- 讨论社区：https://github.com/Safe3/uuWAF/discussions
+- 讨论社区：https://github.com/Safe3/uusec-waf/discussions
 
 - 官方 QQ 群：11500614
 
