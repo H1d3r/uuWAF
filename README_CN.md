@@ -79,7 +79,7 @@ sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer.sh)"
 
 仅供参考
 
-| 指标             | ModSecurity, 级别 1 | CloudFlare, 免费版 | UUSEC WAF, 免费版 | UUSEC WAF, 专业版 |
+| 指标             | ModSecurity, 级别 1 | CloudFlare, 免费版 | UUSEC WAF, 社区版 | UUSEC WAF, 专业版 |
 | ------------------ | -------------------- | ---------------- | --------------- | -------------- |
 | **样本总量**      | 33669                | 33669            | 33669           | 33669          |
 | **检出率**      | 69.74%               | 10.70%           | 74.77%          | **98.97%**     |
