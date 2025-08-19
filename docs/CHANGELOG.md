@@ -1,3 +1,12 @@
+## [7.0.4](https://github.com/Safe3/uusec-waf/compare/v7.0.4...v7.0.3) (2025-08-19)
+
+
+### Bug Fixes
+
+- Fixed the issue of free certificate renewal failures
+
+
+
 ## [7.0.3](https://github.com/Safe3/uusec-waf/compare/v7.0.3...v7.0.2) (2025-07-18)
 
 

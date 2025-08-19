@@ -1,3 +1,12 @@
+## [7.0.4](https://github.com/Safe3/uusec-waf/compare/v7.0.4...v7.0.3) (2025-08-19)
+
+
+### 问题修复
+
+- 修复免费证书续期失败的问题
+
+
+
 ## [7.0.3](https://github.com/Safe3/uusec-waf/compare/v7.0.3...v7.0.2) (2025-07-18)
 
 
