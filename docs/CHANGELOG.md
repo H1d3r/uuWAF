@@ -1,3 +1,18 @@
+## [7.0.5](https://github.com/Safe3/uusec-waf/compare/v7.0.5...v7.0.4) (2025-09-10)
+
+
+### Feature Updates:
+
+- Optimized interface display, adjusted delete icon
+
+### Bug Fixes:
+
+- Fixed issue where cache acceleration cleanup didn't take effect in certain scenarios
+- Fixed inability to use underscores in domain names when adding domains
+- Fixed issue where IP threat intelligence plugin continued logging after triggering high-frequency attack rules
+
+
+
 ## [7.0.4](https://github.com/Safe3/uusec-waf/compare/v7.0.4...v7.0.3) (2025-08-19)
 
 
