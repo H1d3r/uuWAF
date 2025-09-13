@@ -1,3 +1,12 @@
+## [7.0.6](https://github.com/Safe3/uusec-waf/compare/v7.0.6...v7.0.5) (2025-09-13)
+
+
+### Bug Fixes:
+
+- Fixed display issues on certain screen resolutions
+
+
+
 ## [7.0.5](https://github.com/Safe3/uusec-waf/compare/v7.0.5...v7.0.4) (2025-09-10)
 
 

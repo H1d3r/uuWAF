@@ -1,3 +1,12 @@
+## [7.0.6](https://github.com/Safe3/uusec-waf/compare/v7.0.6...v7.0.5) (2025-09-13)
+
+
+### 问题修复：
+
+- 修复某些屏幕分辨率下界面显示异常的问题
+
+
+
 ## [7.0.5](https://github.com/Safe3/uusec-waf/compare/v7.0.5...v7.0.4) (2025-09-10)
 
 
