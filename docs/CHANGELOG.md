@@ -1,3 +1,18 @@
+## [7.1.0](https://github.com/Safe3/uusec-waf/compare/v7.1.0...v7.0.6) (2025-10-14)
+
+### Feature Updates
+
+- **Enhanced plugin functionality**: Now supports setting plugin priority and controlling plugin behavior via return values. Each filter stage can return two boolean values:
+
+    - If the **first value** is `true`, subsequent plugins in the current stage will **not be executed**.
+    - If the **second value** is `true`, the system **immediately returns** and skips all subsequent security rules.
+
+### Bug Fixes:
+
+- Resolved an issue where ‌**free SSL certificates failed to auto-renew**‌.
+
+
+
 ## [7.0.6](https://github.com/Safe3/uusec-waf/compare/v7.0.6...v7.0.5) (2025-09-13)
 
 

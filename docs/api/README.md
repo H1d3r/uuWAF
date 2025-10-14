@@ -490,30 +490,31 @@ end
 
 ### Plugin development
 
-A standard plugin consists of the following parts, each of which can be omitted if there is no functional implementation. Each major stage is divided into two sub stages, pre and post, representing the pre execution and post execution of the UUSEC WAF logic processing, respectively.
+A standard plugin consists of the following parts, each of which can be omitted if there is no functional implementation. Each major stage is divided into two sub stages, pre and post, representing the pre execution and post execution of the UUSEC WAF logic processing, respectively. Each filtering phase can return two boolean values. If the first value is true, execution terminates without proceeding to the next plugin; if the second value is true, it immediately aborts further security rule processing.
 
 ```lua
 local _M = {
     version = 0.1,          --  Plugin version
-    name = "kafka-logger"   --  Plugin name
+    name = "kafka-logger",  --  Plugin name
+    priority = 1            --  Plugin execution priority: A higher numerical value indicates higher priority.
 }
 
--- SSL pre phase filtering
+-- Filter before SSL phase with waf parameter value set to [nil]
 function _M.ssl_pre_filter(waf)
 
 end
 
--- SSL phase post filtering
+-- Filter after SSL phase with waf parameter value set to [nil]
 function _M.ssl_post_filter(waf)
 
 end
 
--- Pre request filtering phase
+-- Filter before request phase
 function _M.req_pre_filter(waf)
 
 end
 
--- Post request filtering phase
+-- Filter after request phase
 function _M.req_post_filter(waf)
 
 end
@@ -538,12 +539,12 @@ function _M.resp_body_post_filter(waf)
 
 end
 
--- Filtering before the logging phase
+-- Filter before the logging phase
 function _M.log_pre_filter(waf)
 
 end
 
--- Filtering after the logging phase
+-- Filter after the logging phase
 function _M.log_post_filter(waf)
 
 end

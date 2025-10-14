@@ -491,20 +491,21 @@ end
 
 ### 插件编写
 
-一个标准的插件包含以下几个部分，每个部分若无功能实现可省略，每个大阶段分为pre和post前后两个小阶段，分别代表南墙逻辑处理执行前和南墙逻辑处理执行后。南墙v4.1.0之前的版本没有小阶段，请使用req_filter、resp_header_filter、resp_body_filter、log。
+一个标准的插件包含以下几个部分，每个部分若无功能实现可省略，每个大阶段分为pre和post前后两个小阶段，分别代表南墙逻辑处理执行前和南墙逻辑处理执行后。南墙v4.1.0之前的版本没有小阶段，请使用req_filter、resp_header_filter、resp_body_filter、log。每个过滤阶段可以返回两个bool值，第一个值为true则不再继续执行下一个插件，第二个值为true则直接返回，不再继续执行后续安全规则。
 
 ```lua
 local _M = {
     version = 0.1,          --  插件版本
-    name = "kafka-logger"   --  插件名称
+    name = "kafka-logger",  --  插件名称
+    priority = 1            --  插件执行优先级，值越大优先级越高
 }
 
--- ssl阶段前过滤
+-- ssl阶段前过滤，waf参数值为nil
 function _M.ssl_pre_filter(waf)
 
 end
 
--- ssl阶段后过滤
+-- ssl阶段后过滤，waf参数值为nil
 function _M.ssl_post_filter(waf)
 
 end
