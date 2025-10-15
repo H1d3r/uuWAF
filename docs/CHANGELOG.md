@@ -1,6 +1,18 @@
+## [7.1.1](https://github.com/Safe3/uusec-waf/compare/v7.1.1...v7.1.0) (2025-10-15)
+
+### Feature Updates:
+
+- Added 4 new search engine verification capabilitie.
+
+### Bug Fixes:
+
+- Fixed an issue where search engine verification failures occurre.
+
+
+
 ## [7.1.0](https://github.com/Safe3/uusec-waf/compare/v7.1.0...v7.0.6) (2025-10-14)
 
-### Feature Updates
+### Feature Updates:
 
 - **Enhanced plugin functionality**: Now supports setting plugin priority and controlling plugin behavior via return values. Each filter stage can return two boolean values:
 
@@ -9,7 +21,7 @@
 
 ### Bug Fixes:
 
-- Resolved an issue where ‌**free SSL certificates failed to auto-renew**‌.
+- Resolved an issue where **free SSL certificates failed to auto-renew**.
 
 
 
