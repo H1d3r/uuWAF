@@ -66,10 +66,6 @@ Software dependencies: Docker CE version 20.10.14 or above, Docker Compose versi
 
 If you encounter the inability to automatically install Docker Engine, please install it manually.
 
-> [!WARNING]
-> 中国用户请访问 [中文官网](https://waf.uusec.com/) 安装中文版，以下步骤安装国际版可能会导致无法使用！
-
-
 ```bash
 sudo bash -c "$(curl -fsSL https://uuwaf.uusec.com/installer.sh)"
 ```
