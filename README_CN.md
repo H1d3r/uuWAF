@@ -57,7 +57,7 @@
 若遇到无法自动安装Docker Engine，请参考[阿里云](https://help.aliyun.com/zh/ecs/use-cases/install-and-use-docker-on-a-linux-ecs-instance)手动安装。
 
 ```bash
-sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer.sh)"
+sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer_cn.sh)"
 ```
 
 后续可直接执行 `bash /opt/waf/manager.sh` 来管理南墙容器，包括启动、停止、更新、卸载等。
