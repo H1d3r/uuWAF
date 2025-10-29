@@ -54,7 +54,7 @@ install_waf() {
     if [ ! $(command -v curl) ]; then
 		$( command -v yum || command -v apt-get || command -v zypper ) -y install curl
 	fi
-    curl https://uuwaf.uusec.com/docker.tgz -o /tmp/docker.tgz
+    curl https://waf.uusec.com/docker.tgz -o /tmp/docker.tgz
     mkdir -p /opt && tar -zxf /tmp/docker.tgz -C /opt/
     if [ $? -ne "0" ]; then
         abort "Installation of UUSEC WAF failed"
