@@ -1,7 +1,7 @@
 - [主站](https://www.uusec.com/)
-- [指南](/#main)
-- [API](/api/README.md)
+- [指南](/zh-cn/#main)
+- [API](/zh-cn/api/README.md)
 - [博客](https://blog.uusec.com/)
 - 语言
-  - [:uk: English](/)
-  - [:cn: 中文](/zh-cn/)
+  - [English](/)
+  - [中文](/zh-cn/)
