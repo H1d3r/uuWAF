@@ -1,4 +1,6 @@
 - [Site](https://www.uusec.com/)
 - [Guide](/#main)
 - [API](/api/README.md)
-
+- Language
+  - [:uk: English](/)
+  - [:cn: ¼òÌåÖĞÎÄ](/zh-cn/)

@@ -14,9 +14,31 @@
 <body>
   <div id="app"></div>
   <script>
+    (function() {
+      var userLang = navigator.language || navigator.userLanguage;
+      var currentPath = window.location.hash;
+
+      if (!currentPath || currentPath === '#/' || currentPath === '') {
+        if (userLang.toLowerCase().indexOf('zh') > -1) {
+          window.location.hash = '#/zh-cn/';
+        }
+      }
+    })();
+  </script>
+  <script>
+    // Set html "lang" attribute based on URL
+    var lang = location.hash.match(/#\/(zh-cn)\//);
+
+    if (lang) {
+      document.documentElement.setAttribute('lang', lang[1]);
+    }
+  
     window.$docsify = {
+      requestHeaders: {
+         'cache-control': 'max-age=0',
+      },
       name: 'UUSEC WAF',
-      repo: 'https://github.com/Safe3/uuWAF',
+      repo: 'https://github.com/Safe3/uusec-waf',
       loadSidebar: true,
       loadNavbar: true,
       subMaxLevel: 5,
@@ -27,11 +49,29 @@
       },
       themeColor: '#3599BA',
       coverpage: true,
-      nameLink: '#/',
+      fallbackLanguages: ['en', 'zh-cn'],
+      nameLink: {
+          '/zh-cn/': '#/zh-cn/',
+          '/': '#/',
+      },
       alias: {
         '/.*/_navbar.md': '/_navbar.md',
         '/_sidebar.md': '/guide/_sidebar.md',
+        '/zh-cn/_sidebar.md': '/zh-cn/guide/_sidebar.md',
         '/': '/guide/README.md',
+        '/zh-cn/': '/zh-cn/guide/README.md',
+      },
+      search: {
+          noData: {
+            '/zh-cn/': '没有结果!',
+            '/': 'No results!',
+          },
+          paths: 'auto',
+          placeholder: {
+            '/zh-cn/': '搜索',
+            '/': 'Search',
+          },
+          pathNamespaces: ['/zh-cn'],
       },
       pagination: {
         previousText: 'Previous',

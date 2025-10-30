@@ -2,3 +2,6 @@
 - [指南](/#main)
 - [API](/api/README.md)
 - [博客](https://blog.uusec.com/)
+- 语言
+  - [:uk: English](/)
+  - [:cn: 简体中文](/zh-cn/)
