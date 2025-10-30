@@ -3,4 +3,4 @@
 - [API](/api/README.md)
 - Language
   - [:uk: English](/)
-  - [:cn: ¼òÌåÖĞÎÄ](/zh-cn/)
+  - [:cn: ç®€ä½“ä¸­æ–‡](/zh-cn/)
