@@ -2,5 +2,5 @@
 - [Guide](/#main)
 - [API](/api/README.md)
 - Language
-  - [:uk: English](/)
-  - [:cn: 中文](/zh-cn/)
+  - [English](/)
+  - [中文](/zh-cn/)
