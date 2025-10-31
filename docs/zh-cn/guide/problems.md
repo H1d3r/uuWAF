@@ -1,5 +1,5 @@
 # 常见问题
-> 南墙 的发展离不开社区的每一位用户的支持，欢迎在[github](https://github.com/Safe3/uuWAF)上点个小星星，这里收集常见的使用问题 。
+> 南墙 的发展离不开社区的每一位用户的支持，欢迎在[github](https://github.com/Safe3/uusec-waf)上点个小星星，这里收集常见的使用问题 。
 
 
 

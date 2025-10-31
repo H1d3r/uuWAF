@@ -89,7 +89,7 @@
 
 
 
-## [7.0.0](https://github.com/Safe3/uuWAF/compare/v7.0.0...v6.8.0) (2025-07-01)
+## [7.0.0](https://github.com/Safe3/uusec-waf/compare/v7.0.0...v6.8.0) (2025-07-01)
 
 
 ### 功能更新
@@ -110,7 +110,7 @@
 
 
 
-## [6.8.0 LTS](https://github.com/Safe3/uuWAF/compare/v6.8.0...v6.7.0) (2025-04-18)
+## [6.8.0 LTS](https://github.com/Safe3/uusec-waf/compare/v6.8.0...v6.7.0) (2025-04-18)
 
 
 ### 功能更新
@@ -127,7 +127,7 @@
 
 
 
-## [6.7.0](https://github.com/Safe3/uuWAF/compare/v6.7.0...v6.6.0) (2025-03-30)
+## [6.7.0](https://github.com/Safe3/uusec-waf/compare/v6.7.0...v6.6.0) (2025-03-30)
 
 
 ### 功能更新
@@ -142,7 +142,7 @@
 
 
 
-## [6.6.0](https://github.com/Safe3/uuWAF/compare/v6.6.0...v6.5.0) (2025-02-24)
+## [6.6.0](https://github.com/Safe3/uusec-waf/compare/v6.6.0...v6.5.0) (2025-02-24)
 
 
 ### 功能更新
@@ -153,7 +153,7 @@
 
 
 
-## [6.5.0](https://github.com/Safe3/uuWAF/compare/v6.5.0...v6.4.0) (2025-02-15)
+## [6.5.0](https://github.com/Safe3/uusec-waf/compare/v6.5.0...v6.4.0) (2025-02-15)
 
 
 ### 功能更新
@@ -168,7 +168,7 @@
 
 
 
-## [6.4.0](https://github.com/Safe3/uuWAF/compare/v6.4.0...v6.3.0) (2025-02-04)
+## [6.4.0](https://github.com/Safe3/uusec-waf/compare/v6.4.0...v6.3.0) (2025-02-04)
 
 
 ### 功能更新
@@ -181,7 +181,7 @@
 
 
 
-## [6.3.0](https://github.com/Safe3/uuWAF/compare/v6.3.0...v6.2.0) (2024-12-30)
+## [6.3.0](https://github.com/Safe3/uusec-waf/compare/v6.3.0...v6.2.0) (2024-12-30)
 
 
 ### 功能更新
@@ -192,7 +192,7 @@
 
 
 
-## [6.2.0](https://github.com/Safe3/uuWAF/compare/v6.2.0...v6.1.0) (2024-11-26)
+## [6.2.0](https://github.com/Safe3/uusec-waf/compare/v6.2.0...v6.1.0) (2024-11-26)
 
 
 ### 功能更新
@@ -203,7 +203,7 @@
 
 
 
-## [6.1.0](https://github.com/Safe3/uuWAF/compare/v6.1.0...v6.0.0) (2024-11-17)
+## [6.1.0](https://github.com/Safe3/uusec-waf/compare/v6.1.0...v6.0.0) (2024-11-17)
 
 
 ### 功能更新
@@ -217,7 +217,7 @@
 
   
 
-## [6.0.0](https://github.com/Safe3/uuWAF/compare/v6.0.0...v5.5.0) (2024-11-01)
+## [6.0.0](https://github.com/Safe3/uusec-waf/compare/v6.0.0...v5.5.0) (2024-11-01)
 
 
 ### 功能更新
@@ -229,7 +229,7 @@
 
   
 
-## [5.5.0](https://github.com/Safe3/uuWAF/compare/v5.5.0...v5.4.0) (2024-10-22)
+## [5.5.0](https://github.com/Safe3/uusec-waf/compare/v5.5.0...v5.4.0) (2024-10-22)
 
 
 ### 功能更新
@@ -241,7 +241,7 @@
 
 
 
-## [5.4.0](https://github.com/Safe3/uuWAF/compare/v5.4.0...v5.3.0) (2024-09-29)
+## [5.4.0](https://github.com/Safe3/uusec-waf/compare/v5.4.0...v5.3.0) (2024-09-29)
 
 
 ### 功能更新
@@ -256,7 +256,7 @@
 
 
 
-## [5.3.0](https://github.com/Safe3/uuWAF/compare/v5.3.0...v5.2.0) (2024-08-29)
+## [5.3.0](https://github.com/Safe3/uusec-waf/compare/v5.3.0...v5.2.0) (2024-08-29)
 
 
 ### 功能更新
@@ -267,7 +267,7 @@
 
 
 
-## [5.2.0](https://github.com/Safe3/uuWAF/compare/v5.2.0...v5.1.1) (2024-08-08)
+## [5.2.0](https://github.com/Safe3/uusec-waf/compare/v5.2.0...v5.1.1) (2024-08-08)
 
 
 ### 功能更新
@@ -283,7 +283,7 @@
 
 
 
-## [5.1.1](https://github.com/Safe3/uuWAF/compare/v5.1.1...v5.1.0) (2024-07-30)
+## [5.1.1](https://github.com/Safe3/uusec-waf/compare/v5.1.1...v5.1.0) (2024-07-30)
 
 
 ### 问题修复
@@ -292,7 +292,7 @@
 
 
 
-## [5.1.0](https://github.com/Safe3/uuWAF/compare/v5.1.0...v5.0.0) (2024-07-26)
+## [5.1.0](https://github.com/Safe3/uusec-waf/compare/v5.1.0...v5.0.0) (2024-07-26)
 
 
 ### 功能更新
@@ -307,7 +307,7 @@
 
 
 
-## [5.0.0](https://github.com/Safe3/uuWAF/compare/v5.0.0...v4.5.0) (2024-07-24)
+## [5.0.0](https://github.com/Safe3/uusec-waf/compare/v5.0.0...v4.5.0) (2024-07-24)
 
 
 ### 功能更新
@@ -322,7 +322,7 @@
 
   
 
-## [4.5.0](https://github.com/Safe3/uuWAF/compare/v4.5.0...v4.4.1) (2024-06-16)
+## [4.5.0](https://github.com/Safe3/uusec-waf/compare/v4.5.0...v4.4.1) (2024-06-16)
 
 
 ### 功能更新
@@ -335,7 +335,7 @@
 
 
 
-## [4.4.1](https://github.com/Safe3/uuWAF/compare/v4.4.1...v4.3.0) (2024-06-04)
+## [4.4.1](https://github.com/Safe3/uusec-waf/compare/v4.4.1...v4.3.0) (2024-06-04)
 
 
 ### 功能更新
@@ -352,7 +352,7 @@
 
 
 
-## [4.3.0](https://github.com/Safe3/uuWAF/compare/v4.3.0...v4.2.0) (2024-04-28)
+## [4.3.0](https://github.com/Safe3/uusec-waf/compare/v4.3.0...v4.2.0) (2024-04-28)
 
 
 ### 功能更新
@@ -368,7 +368,7 @@
 
 
 
-## [4.2.0](https://github.com/Safe3/uuWAF/compare/v4.2.0...v4.1.0) (2024-04-22)
+## [4.2.0](https://github.com/Safe3/uusec-waf/compare/v4.2.0...v4.1.0) (2024-04-22)
 
 
 ### 功能更新
@@ -384,7 +384,7 @@
 * ACME免费证书申请不再处理ip类证书申请
 
 
-## [4.1.0](https://github.com/Safe3/uuWAF/compare/v4.1.0...v4.0.1) (2024-04-16)
+## [4.1.0](https://github.com/Safe3/uusec-waf/compare/v4.1.0...v4.0.1) (2024-04-16)
 
 
 ### 功能更新
@@ -395,7 +395,7 @@
 
 
 
-## [4.0.1](https://github.com/Safe3/uuWAF/compare/v4.0.1...v3.3.3) (2024-04-10)
+## [4.0.1](https://github.com/Safe3/uusec-waf/compare/v4.0.1...v3.3.3) (2024-04-10)
 
 
 ### 功能更新
@@ -411,7 +411,7 @@
 
 
 
-## [3.3.3](https://github.com/Safe3/uuWAF/compare/v3.3.3...v3.0.1) (2024-03-27)
+## [3.3.3](https://github.com/Safe3/uusec-waf/compare/v3.3.3...v3.0.1) (2024-03-27)
 
 
 ### 功能更新
@@ -430,7 +430,7 @@
 
 
 
-## [3.0.1](https://github.com/Safe3/uuWAF/compare/v3.0.1...v2.8.0) (2024-01-27)
+## [3.0.1](https://github.com/Safe3/uusec-waf/compare/v3.0.1...v2.8.0) (2024-01-27)
 
 
 ### 功能更新
@@ -446,7 +446,7 @@
 
 
 
-## [2.8.0](https://github.com/Safe3/uuWAF/compare/v2.8.0...v2.7.0) (2024-01-11)
+## [2.8.0](https://github.com/Safe3/uusec-waf/compare/v2.8.0...v2.7.0) (2024-01-11)
 
 
 ### 新增功能
@@ -461,7 +461,7 @@
 
 
 
-## [2.7.0](https://github.com/Safe3/uuWAF/compare/v2.7.0...v2.6.1) (2024-01-05)
+## [2.7.0](https://github.com/Safe3/uusec-waf/compare/v2.7.0...v2.6.1) (2024-01-05)
 
 
 ### 新增功能
@@ -479,7 +479,7 @@
 
 
 
-## [2.6.1](https://github.com/Safe3/uuWAF/compare/v2.6.1...v2.6.0) (2023-09-04)
+## [2.6.1](https://github.com/Safe3/uusec-waf/compare/v2.6.1...v2.6.0) (2023-09-04)
 
 
 ### 新增功能
@@ -490,7 +490,7 @@
 
 
 
-## [2.6.0](https://github.com/Safe3/uuWAF/compare/v2.6.0...v2.5.1) (2023-08-26)
+## [2.6.0](https://github.com/Safe3/uusec-waf/compare/v2.6.0...v2.5.1) (2023-08-26)
 
 
 ### 新增功能
@@ -506,7 +506,7 @@
 
   
 
-## [2.5.1](https://github.com/Safe3/uuWAF/compare/v2.5.1...v2.4.1) (2023-07-04)
+## [2.5.1](https://github.com/Safe3/uusec-waf/compare/v2.5.1...v2.4.1) (2023-07-04)
 
 
 ### 新增功能
@@ -518,7 +518,7 @@
 
 
 
-## [2.4.1](https://github.com/Safe3/uuWAF/compare/v2.4.1...v2.3.0) (2023-05-30)
+## [2.4.1](https://github.com/Safe3/uusec-waf/compare/v2.4.1...v2.3.0) (2023-05-30)
 
 
 ### 新增功能
@@ -537,7 +537,7 @@
   
 
 
-## [2.3.0](https://github.com/Safe3/uuWAF/compare/v2.3.0...v2.2.0) (2023-04-28)
+## [2.3.0](https://github.com/Safe3/uusec-waf/compare/v2.3.0...v2.2.0) (2023-04-28)
 
 
 ### 新增功能
@@ -547,7 +547,7 @@
 
 
 
-## [2.2.0](https://github.com/Safe3/uuWAF/compare/v2.2.0...v2.1.5) (2023-03-22)
+## [2.2.0](https://github.com/Safe3/uusec-waf/compare/v2.2.0...v2.1.5) (2023-03-22)
 
 
 ### 新增功能
@@ -567,7 +567,7 @@
 
 
 
-## [2.1.5](https://github.com/Safe3/uuWAF/compare/v2.1.5...v2.1.2) (2022-12-31)
+## [2.1.5](https://github.com/Safe3/uusec-waf/compare/v2.1.5...v2.1.2) (2022-12-31)
 
 
 ### Bug 修复
@@ -586,7 +586,7 @@
 
 
 
-## [2.1.2](https://github.com/Safe3/uuWAF/compare/v2.1.2...v1.9.3) (2022-11-11)
+## [2.1.2](https://github.com/Safe3/uusec-waf/compare/v2.1.2...v1.9.3) (2022-11-11)
 
 
 ### Bug 修复
@@ -604,7 +604,7 @@
 
 
 
-## [1.9.3](https://github.com/Safe3/uuWAF/compare/v1.9.3...v1.9.0) (2022-10-10)
+## [1.9.3](https://github.com/Safe3/uusec-waf/compare/v1.9.3...v1.9.0) (2022-10-10)
 
 
 ### Bug 修复
@@ -621,7 +621,7 @@
 
 
 
-## [1.9.0](https://github.com/Safe3/uuWAF/compare/v1.9.0...v1.8.1) (2022-09-22)
+## [1.9.0](https://github.com/Safe3/uusec-waf/compare/v1.9.0...v1.8.1) (2022-09-22)
 
 
 ### Bug 修复

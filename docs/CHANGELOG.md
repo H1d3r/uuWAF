@@ -92,7 +92,7 @@
 
 
 
-## [7.0.0](https://github.com/Safe3/uuWAF/compare/v7.0.0...v6.8.0) (2025-07-01)
+## [7.0.0](https://github.com/Safe3/uusec-waf/compare/v7.0.0...v6.8.0) (2025-07-01)
 
 
 ### Feature Updates  
@@ -121,7 +121,7 @@
 
 
 
-## [6.8.0 LTS](https://github.com/Safe3/uuWAF/compare/v6.8.0...v6.7.0) (2025-04-18)
+## [6.8.0 LTS](https://github.com/Safe3/uusec-waf/compare/v6.8.0...v6.7.0) (2025-04-18)
 
 
 ### Improvements
@@ -138,7 +138,7 @@
 
 
 
-## [6.7.0](https://github.com/Safe3/uuWAF/compare/v6.7.0...v6.6.0) (2025-03-30)
+## [6.7.0](https://github.com/Safe3/uusec-waf/compare/v6.7.0...v6.6.0) (2025-03-30)
 
 
 ### Improvements
@@ -153,7 +153,7 @@
 
 
 
-## [6.6.0](https://github.com/Safe3/uuWAF/compare/v6.6.0...v6.5.0) (2025-02-24)
+## [6.6.0](https://github.com/Safe3/uusec-waf/compare/v6.6.0...v6.5.0) (2025-02-24)
 
 
 ### Improvements
@@ -164,7 +164,7 @@
 
 
 
-## [6.5.0](https://github.com/Safe3/uuWAF/compare/v6.5.0...v6.4.0) (2025-02-15)
+## [6.5.0](https://github.com/Safe3/uusec-waf/compare/v6.5.0...v6.4.0) (2025-02-15)
 
 ### Improvements
 
@@ -178,7 +178,7 @@
 
 
 
-## [6.4.0](https://github.com/Safe3/uuWAF/compare/v6.4.0...v6.3.0) (2025-02-03)
+## [6.4.0](https://github.com/Safe3/uusec-waf/compare/v6.4.0...v6.3.0) (2025-02-03)
 
 ### Improvements
 
@@ -190,7 +190,7 @@
 
 
 
-## [6.3.0](https://github.com/Safe3/uuWAF/compare/v6.3.0...v6.2.0) (2024-12-30)
+## [6.3.0](https://github.com/Safe3/uusec-waf/compare/v6.3.0...v6.2.0) (2024-12-30)
 
 ### Improvements
 
@@ -200,7 +200,7 @@
 
 
 
-## [6.2.0](https://github.com/Safe3/uuWAF/compare/v6.2.0...v6.1.0) (2024-11-26)
+## [6.2.0](https://github.com/Safe3/uusec-waf/compare/v6.2.0...v6.1.0) (2024-11-26)
 
 ### Improvements
 

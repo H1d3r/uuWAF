@@ -9,8 +9,8 @@
 
 # Introduction
 
-[![GitHub stars](https://img.shields.io/github/stars/Safe3/uuWAF.svg?label=Follow&nbsp;uuWAF&style=for-the-badge)](https://github.com/Safe3/uuWAF)
-[![Chat](https://img.shields.io/badge/Discuss-Join-7289da.svg?style=for-the-badge)](https://github.com/Safe3/uuWAF/discussions)
+[![GitHub stars](https://img.shields.io/github/stars/Safe3/uusec-waf.svg?label=Follow&nbsp;uusec-waf&style=for-the-badge)](https://github.com/Safe3/uusec-waf)
+[![Chat](https://img.shields.io/badge/Discuss-Join-7289da.svg?style=for-the-badge)](https://github.com/Safe3/uusec-waf/discussions)
 
 > **UUSEC WAF** Web Application Firewall is an industrial grade free, high-performance, and highly scalable web application and API security protection product that supports AI and semantic engines. It is a comprehensive website protection product launched by UUSEC Technology, which first realizes the three-layer defense function of traffic layer, system layer, and runtime layer.
 

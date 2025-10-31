@@ -1,5 +1,5 @@
 # FAQ
-> The development of UUSEC WAF cannot be separated from the support of every user in the community. Welcome to [Github](https://github.com/Safe3/uuWAF) to click on a little star, here to collect common usage questions.
+> The development of UUSEC WAF cannot be separated from the support of every user in the community. Welcome to [Github](https://github.com/Safe3/uusec-waf) to click on a little star, here to collect common usage questions.
 
 
 
