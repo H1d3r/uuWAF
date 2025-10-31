@@ -25,7 +25,7 @@ UUSEC WAF supports one click fully automatic installation, without the need for 
 If you encounter the inability to automatically install Docker Engine, please install it manually.
 
 ```bash
-sudo bash -c "$(curl -fsSL https://uuwaf.uusec.com/installer.sh)"
+sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer.sh)"
 ```
 
 Subsequently, `bash /opt/waf/manager.sh` is used to manage the UUSEC WAF container, including starting, stopping, updating, uninstalling, etc.
@@ -38,4 +38,4 @@ Subsequently, `bash /opt/waf/manager.sh` is used to manage the UUSEC WAF contain
 4. Change the DNS address of the domain: Go to the domain name service provider's management backend and change the IP address recorded in the DNS A of the domain name to the IP address of the UUSEC WAF server.
 5. Test connectivity: Visit the site domain to see if the website can be opened, and check if the returned HTTP header server field is uuWAF.
 
-!> For more solutions to problems encountered during use, please refer to [FAQ](https://uuwaf.uusec.com/#/guide/problems).
+!> For more solutions to problems encountered during use, please refer to [FAQ](https://waf.uusec.com/#/guide/problems).

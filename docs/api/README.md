@@ -1,7 +1,7 @@
 
 ## :grapes: Rule
 
-?> Here are some explanations of the variables and related functions used in the rules. For more rule writing methods, please refer to the numerous practical examples in rule management in the WAF management. The rule template can be found at: https://github.com/Safe3/uuWAF/blob/main/src/rules/anti-cc.lua A security rule against CC attacks. Welcome everyone to contribute  rules. For details, please refer to: https://uuwaf.uusec.com/#/guide/contribute .
+?> Here are some explanations of the variables and related functions used in the rules. For more rule writing methods, please refer to the numerous practical examples in rule management in the WAF management. The rule template can be found at: https://github.com/Safe3/uuWAF/blob/main/src/rules/anti-cc.lua A security rule against CC attacks. Welcome everyone to contribute  rules. For details, please refer to: https://waf.uusec.com/#/guide/contribute .
 
 ### Example of Rules
 
@@ -486,7 +486,7 @@ end
 
 ## :melon: Plugin
 
-?>The UUSEC WAF supports powerful plugin extension functions, making it convenient for users to implement some unique features on their own. The plugin template can be found at: https://github.com/Safe3/uuWAF/blob/main/src/plugins/kafka-logger.lua , a Kafka logging plugin. Welcome everyone to contribute security plugins. For details, please refer to: https://uuwaf.uusec.com/#/guide/contribute .
+?>The UUSEC WAF supports powerful plugin extension functions, making it convenient for users to implement some unique features on their own. The plugin template can be found at: https://github.com/Safe3/uuWAF/blob/main/src/plugins/kafka-logger.lua , a Kafka logging plugin. Welcome everyone to contribute security plugins. For details, please refer to: https://waf.uusec.com/#/guide/contribute .
 
 ### Plugin development
 

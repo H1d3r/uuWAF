@@ -85,8 +85,8 @@ UUSEC WAF provides you with a simple and easy-to-use WAF backend management inte
 
 :oden: Management 
 
-<img src="https://uuwaf.uusec.com/_media/waf.png" style="width: 98%;" class="sd"/>
+<img src="https://waf.uusec.com/_media/waf.png" style="width: 98%;" class="sd"/>
 
 :package: Rules
 
-![](https://uuwaf.uusec.com/_media/rule.png)
+![](https://waf.uusec.com/_media/rule.png)
