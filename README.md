@@ -14,7 +14,7 @@
 
 > **UUSEC WAF** Web Application Firewall is an industrial grade free, high-performance, and highly scalable web application and API security protection product that supports AI and semantic engines. It is a comprehensive website protection product launched by UUSEC Technology, which first realizes the three-layer defense function of traffic layer, system layer, and runtime layer.
 
-![](http://uuwaf.uusec.com/_media/waf.png)
+![](http://waf.uusec.com/_media/waf.png)
 
 
 
@@ -51,10 +51,10 @@ UUSEC WAF actively utilizes the high-performance and highly flexible features of
 
 UUSEC WAF provides you with a powerful and flexible API for extending and writing security rules. After being published in the management backend, all rules take effect immediately without restarting, far exceeding most free WAF products on the market such as ModSecurity. The rules are shown below:
 
-![](http://uuwaf.uusec.com/_media/rule.png)
+![](http://waf.uusec.com/_media/rule.png)
 
 
-🏠Please visit the official website to see more details:  https://uuwaf.uusec.com/ 
+🏠Please visit the official website to see more details:  https://waf.uusec.com/ 
 
 The installation of the UUSEC WAF is very simple, usually completed within a few minutes, and the specific time depends on the network download situation.
 
@@ -67,7 +67,7 @@ Software dependencies: Docker CE version 20.10.14 or above, Docker Compose versi
 If you encounter the inability to automatically install Docker Engine, please install it manually.
 
 ```bash
-sudo bash -c "$(curl -fsSL https://uuwaf.uusec.com/installer.sh)"
+sudo bash -c "$(curl -fsSL https://waf.uusec.com/installer.sh)"
 ```
 
 Subsequently, `bash /opt/waf/manager.sh` is used to manage the UUSEC WAF container, including starting, stopping, updating, uninstalling, etc.
@@ -80,7 +80,7 @@ Subsequently, `bash /opt/waf/manager.sh` is used to manage the UUSEC WAF contain
 4. Change the DNS address of the domain: Go to the domain name service provider's management backend and change the IP address recorded in the DNS A of the domain name to the IP address of the UUSEC WAF server.
 5. Test connectivity: Visit the site domain to see if the website can be opened, and check if the returned HTTP header server field is uuWAF.
 
-For more solutions to problems encountered during use, please refer to [FAQ](https://uuwaf.uusec.com/#/guide/problems).
+For more solutions to problems encountered during use, please refer to [FAQ](https://waf.uusec.com/#/guide/problems).
 
 
 
@@ -107,7 +107,7 @@ Other great products from us:
 
 ## :gift_heart: Contribution List
 
-How to contribute? reference: https://uuwaf.uusec.com/#/guide/contribute
+How to contribute? reference: https://waf.uusec.com/#/guide/contribute
 
 Thanks to puhui222, MCQSJ, k4n5ha0 and more for the contribution made to the UUSEC WAF!
 
