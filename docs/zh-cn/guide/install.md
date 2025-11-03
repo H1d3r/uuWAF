@@ -39,4 +39,4 @@ sudo bash -c "$(curl -fsSL https://waf.uusec.com/zh-cn/installer.sh)"
 4. 修改域名DNS指向：到域名服务商管理后台把域名DNS A记录的ip地址改为南墙服务器ip地址。
 5. 测试连通性：访问站点域名查看网站是否能够打开，查看返回的http header头server字段是否为uuWAF。
 
-!> 更多使用过程中碰到问题的解决办法请参考[常见问题](https://waf.uusec.com/#/guide/problems)。
+!> 更多使用过程中碰到问题的解决办法请参考[常见问题](https://waf.uusec.com/#/zh-cn/guide/problems)。
