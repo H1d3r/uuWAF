@@ -1,3 +1,11 @@
+## [7.1.2](https://github.com/Safe3/uusec-waf/compare/v7.1.2...v7.1.1) (2026-03-09)
+
+### 功能更新
+
+- 新增和调整多个规则以防御最新威胁
+
+
+
 ## [7.1.1](https://github.com/Safe3/uusec-waf/compare/v7.1.1...v7.1.0) (2025-10-15)
 
 ### 功能更新

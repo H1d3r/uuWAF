@@ -1,8 +1,16 @@
+## [7.1.2](https://github.com/Safe3/uusec-waf/compare/v7.1.2...v7.1.1) (2026-03-09)
+
+### Feature Updates:
+
+- Added and updated more rules for latest threats.
+
+
+
 ## [7.1.1](https://github.com/Safe3/uusec-waf/compare/v7.1.1...v7.1.0) (2025-10-15)
 
 ### Feature Updates:
 
-- Added 4 new search engine verification capabilitie.
+- Added 4 new search engine verification capabilities.
 
 ### Bug Fixes:
 
