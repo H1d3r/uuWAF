@@ -133,7 +133,7 @@ else
     if count + 1 >= finalThreshold then
         sh:set(ipKey, count + 1, banDuration, 2)
         local modeInfo = enableDynamic and ("当前模式:" .. currentMode) or "固定阈值模式"
-        return true, "IP因请求" .. resourceType .. "资源频率过高被封禁(" .. modeInfo .. ",窗口:" .. timeWindow .. "秒,阈值:" .. finalThreshold .. ")", true
+        return waf.RULE_BLOCK, "IP因请求" .. resourceType .. "资源频率过高被封禁(" .. modeInfo .. ",窗口:" .. timeWindow .. "秒,阈值:" .. finalThreshold .. ")"
     end
 end
 

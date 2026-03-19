@@ -1,3 +1,13 @@
+## [7.2.0](https://github.com/Safe3/uusec-waf/compare/v7.2.0...v7.1.2) (2026-03-18)
+
+!> Attention: This version is incompatible with older versions and does not support direct upgrade from previous versions.
+
+### Feature Updates:
+
+- Supports log-only rule functionality, introducing three new rule constants: waf.RULE_BLOCK, waf.RULE_ALLOW, and waf.RULE_LOG_ONLY. When a rule returns these values, they represent block, allow, and log-only actions, respectively.
+
+
+
 ## [7.1.2](https://github.com/Safe3/uusec-waf/compare/v7.1.2...v7.1.1) (2026-03-09)
 
 ### Feature Updates:

@@ -1,3 +1,13 @@
+## [7.2.0](https://github.com/Safe3/uusec-waf/compare/v7.2.0...v7.1.2) (2026-03-18)
+
+!> 注意：此版本与旧版本规则不兼容，不支持从旧版本直接升级
+
+### 功能更新
+
+- 支持只记录规则功能，新增waf.RULE_BLOCK、waf.RULE_ALLOW、waf.RULE_LOG_ONLY三个规则常量，规则返回上述值时分别代表拦截、允许、只记录
+
+
+
 ## [7.1.2](https://github.com/Safe3/uusec-waf/compare/v7.1.2...v7.1.1) (2026-03-09)
 
 ### 功能更新

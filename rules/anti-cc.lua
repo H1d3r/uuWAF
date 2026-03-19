@@ -22,7 +22,7 @@ else
     sh:incr(ccIp, 1)
     if c + 1 >= 360 then             -- Frequency exceeding 360 times
         sh:set(ccIp, c + 1, 300, 2)  -- Set a 300 second interception time
-        return true, ccIp, true      -- Return parameter, the first 'true' is whether it has been detected; The second parameter 'ccIp' is the content of the log record; The third parameter 'true' indicates interception, while 'false' indicates only recording without interception
+        return waf.RULE_BLOCK, ccIp  -- Return parameters: the first value waf.RULE_BLOCK indicates a block action; the second parameter ccIp contains the logged content;
     end
 end
 

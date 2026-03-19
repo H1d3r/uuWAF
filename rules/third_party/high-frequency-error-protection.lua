@@ -40,7 +40,7 @@ else
     errorCache:incr(errorKey, 1)
     if errorCount + 1 >= threshold then
         errorCache:set(errorKey, errorCount + 1, banDuration, 2)
-        return true, "高频错误触发，IP已被封禁", true
+        return waf.RULE_BLOCK, "高频错误触发，IP已被封禁"
     end
 end
 

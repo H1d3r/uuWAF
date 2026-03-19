@@ -30,13 +30,33 @@ else
     sh:incr(ccIp, 1)
     if c + 1 >= 360 then             -- 频率超过360次
         sh:set(ccIp, c + 1, 300, 2)  -- 设置5分钟也就是300秒拦截时间
-        return true, ccIp, true      -- 返回参数，第一个true为是否检测到；第二个参数ccIp为日志记录内容；第三个参数true表示拦截，即黑名单规则；false表示允许并且不再匹配剩余规则，即白名单规则
+        return waf.RULE_BLOCK, ccIp  -- 返回参数，第一个值为waf.RULE_BLOCK表示拦截操作；第二个参数ccIp为日志记录内容；
     end
 end
 
 return false
 ```
 
+
+
+### 规则常量
+
+##### waf.RULE_BLOCK
+- 类型: ``number``
+- 默认值: ``1``
+- 用法: 只读，当规则返回该值时表示该行为为拦截操作。
+
+##### waf.RULE_ALLOW
+
+- 类型: ``2``
+- 默认值: ``客户端访问http协议，值为字符串http或https``
+- 用法: 只读，当规则返回该值时表示该行为为允许操作。
+
+##### waf.RULE_LOG_ONLY
+
+- 类型: ``number``
+- 默认值: ``3``
+- 用法: 只读，当规则返回该值时表示该行为为只记录操作。
 
 
 

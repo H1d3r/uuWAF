@@ -25,7 +25,7 @@ end
 local recent_count = ip_stats:get(ip)
 if recent_count and recent_count > threshold then
     sh:set(block_key, 1, banDuration, 2)
-    return true, "IP频繁触发拦截，已被拉黑", true
+    return waf.RULE_BLOCK, "IP频繁触发拦截，已被拉黑"
 end
 
 return false

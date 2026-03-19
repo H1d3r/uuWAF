@@ -33,7 +33,7 @@ else
     sh:incr(bruteForceKey, 1)
     if requestCount + 1 > threshold then
         sh:set(bruteForceKey, requestCount + 1, banDuration, 2)
-        return true, "检测到登录接口发生爆破攻击，已封禁IP", true
+        return waf.RULE_BLOCK, "检测到登录接口发生爆破攻击，已封禁IP"
     end
 end
 

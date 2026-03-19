@@ -30,13 +30,33 @@ else
     sh:incr(ccIp, 1)
     if c + 1 >= 360 then             -- Frequency exceeding 360 times
         sh:set(ccIp, c + 1, 300, 2)  -- Set a 300 second interception time
-        return true, ccIp, true      -- Return parameter, the first 'true' is whether it has been detected; The second parameter 'ccIp' is the content of the log record; Third parameter:true means ‌blocked‌ (triggering blacklist rule),false means ‌allowed‌ (whitelist rule, skipping remaining rule checks)
+        return waf.RULE_BLOCK, ccIp  -- Return parameters: the first value waf.RULE_BLOCK indicates a block action; the second parameter ccIp contains the logged content;
     end
 end
 
 return false
 ```
 
+
+
+### Rule constants
+
+##### waf.RULE_BLOCK
+- Type: ``number``
+- Value: ``1``
+- Usage: Read-only; when the rule returns this value, it indicates that the action is a block operation.
+
+##### waf.RULE_ALLOW
+
+- Type: ``number``
+- Value: ``2``
+- Usage: Read-only; when the rule returns this value, it indicates that the action is a allow operation.
+
+##### waf.RULE_LOG_ONLY
+
+- Type: ``number``
+- Value: ``3``
+- Usage: Read-only; when the rule returns this value, it indicates that the action is a log-only operation.
 
 
 
