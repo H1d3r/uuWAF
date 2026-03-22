@@ -12,7 +12,7 @@
 
 services:
   uuwaf:
-    image: swr.cn-south-1.myhuaweicloud.com/uusec/waf:7.1.2
+    image: swr.cn-south-1.myhuaweicloud.com/uusec/waf:latest
     ulimits:
       nproc: 65535
       nofile:

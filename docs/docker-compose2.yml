@@ -12,7 +12,7 @@
 
 services:
   uuwaf:
-    image: swr.cn-south-1.myhuaweicloud.com/uusec/waf:7.1.2
+    image: uusec/waf:latest
     ulimits:
       nproc: 65535
       nofile:
@@ -28,13 +28,12 @@ services:
       - ./waf_logs:/uuwaf/logs
     environment:
       - UUWAF_DB_DSN=root:${MYSQL_PASSWORD}@tcp(127.0.0.1:6612)/uuwaf?charset=utf8mb4&parseTime=true&loc=Local
-      - UUWAF_LANGUAGE=zh
     depends_on:
       wafdb:
         condition: service_healthy
 
   wafdb:
-    image: swr.cn-south-1.myhuaweicloud.com/uusec/mysql:5.7.44
+    image: mysql:5.7
     ulimits:
       nproc: 65535
       nofile:

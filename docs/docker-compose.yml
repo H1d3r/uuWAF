@@ -12,7 +12,7 @@
 
 services:
   uuwaf:
-    image: uusec/waf:latest
+    image: uusec/waf:7.1.2
     ulimits:
       nproc: 65535
       nofile:
