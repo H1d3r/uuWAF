@@ -1,3 +1,11 @@
+## [7.2.1](https://github.com/Safe3/uusec-waf/compare/v7.2.1...v7.2.0) (2026-05-16)
+
+### 问题修复：
+
+- 修复若干nginx漏洞
+
+
+
 ## [7.2.0](https://github.com/Safe3/uusec-waf/compare/v7.2.0...v7.1.2) (2026-03-18)
 
 !> 注意：此版本与旧版本规则不兼容，不支持从旧版本直接升级

@@ -1,3 +1,11 @@
+## [7.2.1](https://github.com/Safe3/uusec-waf/compare/v7.2.1...v7.2.0) (2026-05-16)
+
+### Bug Fixes:
+
+- Fix several nginx vulnerabilities.
+
+
+
 ## [7.2.0](https://github.com/Safe3/uusec-waf/compare/v7.2.0...v7.1.2) (2026-03-18)
 
 !> Attention: This version is incompatible with older versions and does not support direct upgrade from previous versions.
