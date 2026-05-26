@@ -1,3 +1,11 @@
+## [7.2.2](https://github.com/Safe3/uusec-waf/compare/v7.2.2...v7.2.1) (2026-05-26)
+
+### Bug Fixes:
+
+- Fix nginx [CVE-2026-9256](https://www.cve.org/CVERecord?id=CVE-2026-9256) vulnerability.
+
+
+
 ## [7.2.1](https://github.com/Safe3/uusec-waf/compare/v7.2.1...v7.2.0) (2026-05-16)
 
 ### Bug Fixes:
