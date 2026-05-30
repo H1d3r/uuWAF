@@ -78,9 +78,12 @@ function _M.req_post_filter(waf)
             waf.rule_id = 10000
             waf.deny = true
             ngx_kv.ipBlock:incr(waf.ip, 1, 0)
-            return ngx_exit(403)
+            ngx_exit(403)
+            return true, true
         end
     end
+
+    return false
 end
 
 return _M

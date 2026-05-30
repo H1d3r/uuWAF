@@ -44,18 +44,16 @@ end
 local function basic_auth()
     local auth_header = ngx_req.get_headers()["Authorization"]
 
-    if not auth_header then
-        ngx_header["WWW-Authenticate"] = 'Basic realm="Secure Area"'
-        ngx_exit(NGX_HTTP_UNAUTHORIZED)
-        return
+    if auth_header then
+        local credentials = decode_base64_authorization(auth_header)
+        if credentials and authenticate(credentials) then
+            return false
+        end
     end
 
-    local credentials = decode_base64_authorization(auth_header)
-    if not credentials or not authenticate(credentials) then
-        ngx_header["WWW-Authenticate"] = 'Basic realm="Secure Area"'
-        ngx_exit(NGX_HTTP_UNAUTHORIZED)
-        return
-    end
+    ngx_header["WWW-Authenticate"] = 'Basic realm="Secure Area"'
+    ngx_exit(NGX_HTTP_UNAUTHORIZED)
+    return true, true
 end
 
 local _M = {
@@ -65,7 +63,7 @@ local _M = {
 }
 
 function _M.req_pre_filter(waf)
-    basic_auth()
+    return basic_auth()
 end
 
 return _M

@@ -1,3 +1,15 @@
+## [7.2.3](https://github.com/Safe3/uusec-waf/compare/v7.2.3...v7.2.2) (2026-05-30)
+
+### Feature Updates:
+
+- Add the basic authentication plugin.
+
+### Bug Fixes:
+
+- Fix the issue that the IP threat intelligence plugin is not working.
+
+
+
 ## [7.2.2](https://github.com/Safe3/uusec-waf/compare/v7.2.2...v7.2.1) (2026-05-26)
 
 ### Bug Fixes:
