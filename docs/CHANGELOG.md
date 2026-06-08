@@ -1,3 +1,11 @@
+## [7.2.4](https://github.com/Safe3/uusec-waf/compare/v7.2.4...v7.2.3) (2026-06-08)
+
+### Bug Fixes:
+
+- Fix the issue of certificate update failure.
+
+
+
 ## [7.2.3](https://github.com/Safe3/uusec-waf/compare/v7.2.3...v7.2.2) (2026-05-30)
 
 ### Feature Updates:

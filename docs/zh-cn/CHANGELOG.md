@@ -1,3 +1,11 @@
+## [7.2.4](https://github.com/Safe3/uusec-waf/compare/v7.2.4...v7.2.3) (2026-06-08)
+
+### 问题修复
+
+- 修复证书更新失败的问题
+
+
+
 ## [7.2.3](https://github.com/Safe3/uusec-waf/compare/v7.2.3...v7.2.2) (2026-05-30)
 
 ### 功能更新
