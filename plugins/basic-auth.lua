@@ -5,13 +5,28 @@ local ngx_exit = ngx.exit
 local NGX_HTTP_UNAUTHORIZED = ngx.HTTP_UNAUTHORIZED
 local string_find = string.find
 local string_sub = string.sub
+local string_byte = string.byte
 local base64_decode = ngx.decode_base64
 
+-- WARNING: These are example credentials for demonstration purposes only.
+-- In production, use a secure credential store and NEVER hardcode passwords.
 local users = {
     admin = "admin123",
     user1 = "password1",
     test = "test123"
 }
+
+-- Constant-time string comparison to prevent timing attacks
+local function constant_time_compare(a, b)
+    if #a ~= #b then
+        return false
+    end
+    local result = 0
+    for i = 1, #a do
+        result = bit.bor(result, bit.bxor(string_byte(a, i), string_byte(b, i)))
+    end
+    return result == 0
+end
 
 local function decode_base64_authorization(auth_header)
     if not auth_header then return nil end
@@ -34,7 +49,7 @@ local function authenticate(credentials)
     local username = string_sub(credentials, 1, colon_pos - 1)
     local password = string_sub(credentials, colon_pos + 1)
 
-    if users[username] and users[username] == password then
+    if users[username] and constant_time_compare(users[username], password) then
         return true
     end
 
