@@ -215,11 +215,11 @@ local function check_whitelist(host, uri)
 end
 
 -- 创建安全Cookie
-local function create_secure_cookie(session_id)
+local function create_secure_cookie(session_id, scheme)
     return string.format("%s=%s; Path=/; HttpOnly; SameSite=Lax%s",
         cookie_name,
         session_id,
-        waf.scheme == "https" and "; Secure" or ""
+        scheme == "https" and "; Secure" or ""
     )
 end
 
@@ -324,7 +324,7 @@ function _M.req_post_filter(waf)
                 ngx_kv.db:set(new_session_key, expire_time, session_duration)
                 ngx_kv.ipCache:delete(login_attempts_key)
                 
-                ngx.header["Set-Cookie"] = create_secure_cookie(new_session_id)
+                ngx.header["Set-Cookie"] = create_secure_cookie(new_session_id, waf.scheme)
                 return waf.redirect(req_uri)
             else
                 show_error = true

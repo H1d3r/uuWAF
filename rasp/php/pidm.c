@@ -109,7 +109,7 @@ static ssize_t b64dec(char *bufplain, const char *bufcoded)
     nprbytes -= 4;
     }
 
-    /* Note: (nprbytes == 1) would be an error, so just ingore that case */
+    /* Note: (nprbytes == 1) would be an error, so just ignore that case */
     if (nprbytes > 1) {
     *(bufout++) =
         (unsigned char) (pr2six[*bufin] << 2 | pr2six[bufin[1]] >> 4);
@@ -170,16 +170,16 @@ static ssize_t b64enc(char *encoded, const char *string, ssize_t len)
 char *enc(const char *src)
 {
 		char *str;
-        ssize_t len;
+        ssize_t len, srclen;
         
-        len = strlen(src);
-        if(!len)return NULL;
-        len = b64enc_len(len);
+        srclen = strlen(src);
+        if(!srclen)return NULL;
+        len = b64enc_len(srclen);
         str = emalloc(len);
 		if (str == NULL) {
 			return NULL;
 		}
-		b64enc(str,src,strlen(src));
+		b64enc(str,src,srclen);
         return str;
 }
 
